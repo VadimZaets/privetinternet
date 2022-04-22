@@ -1,21 +1,45 @@
 <header class="header">
+  <div class="protected">
+	  <div class="protected__box--wrapper box1">
+		<p class="protected__text--color">You are not protected</p>
+		<p class="protected__text">Your IP Address: 107.3.176.194</p>
+	  </div>
+     <div class="protected__box--wrapper">
+	  <a href="#" class="protected__link">Learn More ›</a>
+	<p class="protected__text">Your ISP: Comcast Cable</p>
+	  </div>
+		<svg class="protected__icon--close" aria-label="Переключатель мобильного меню">
+		<use  href="./images/sprite.svg#close"></use>
+		</svg>
 
-	<div class="navigation__container">
+  </div>
+
+	<div class="navigation__container ">
 		<nav class="navigation">
+			<button type="button" class="menu__button is-open" aria-expanded="false" aria-controls="menu-container"
+				data-menu-button>
+				<svg width="24px" height="24px" aria-label="Переключатель мобильного меню">
+					<use class="icon__menu" href="./images/sprite.svg#menu"></use>
+					<use class="icon__close" href="./images/sprite.svg#close"></use>
+				</svg>
+			</button>
 			<div class="navigation__logo">
-				<svg width="30px" height="34px" aria-label="Логотип">
-					<use class="navigation__logo--icon" href="./images/sprite.svg#logo"></use>
+				<svg class="navigation__logo--icon" aria-label="Логотип">
+					<use  href="./images/sprite.svg#logo"></use>
 
 				</svg>
-				<svg width="224px" height="24px" aria-label="Название сайта">
-					<use class="navigation__logo--text" href="./images/sprite.svg#logo-text"></use>
+				<svg class="navigation__logo--text" aria-label="Название сайта">
+					<use  href="./images/sprite.svg#logo-text"></use>
 				</svg>
 			</div>
+			
+			<div class="menu-container is-open" id="menu-container" data-menu>
 			<div class="navigation__link">
 				<a href="#" class="navigation__link--item">WHY US</a>
 				<a href="#" class="navigation__link--item">VPN APPS</a>
 				<a href="#" class="navigation__link--item">SUPPORT</a>
 				<a href="#" class="navigation__link--item">RESOURCES</a>
+			</div>
 			</div>
 			<div class="navigation__btn">
 				<button type="button" class="navigation__btn--log">LOG IN</button>

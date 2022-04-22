@@ -1,8 +1,11 @@
 :root {
 	--primary-bg-color: #fff;
+	--second-bg-color:#22252E;
 	--accent-primary-color: #4CB649;
+	--accent-second-color: #FF8D00;
 	--title-text-color: #323642;
 	--secondary-text-color:#889099;
+	
 	
 
 }
@@ -99,6 +102,35 @@ h6 {
 	font-weight: 400;
 }
 
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+
+	@media screen and (min-width: 320px) {
+		width: 100%;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	@media screen and (min-width: 480px) {
+		width: 480px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	@media screen and (min-width: 768px) {
+		width: 768px;
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+
+	@media screen and (min-width: 1280px) {
+		width: 1280px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
 .visually-hidden {
 	position: absolute;
 	white-space: nowrap;
