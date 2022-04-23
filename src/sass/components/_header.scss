@@ -19,6 +19,7 @@
 		font-size: 12px;
 		line-height: 1.33;
 		color: var(--accent-second-color);
+	
 	}
 	&__text{
 		margin-top: 8px;
@@ -39,6 +40,15 @@
 		height: 14px;
 		fill: var(--secondary-text-color);
 	}
+	&__icon--shape{
+		width: 22px;
+		height: 19px;
+		margin-right: 5px;
+	}
+	&__shape--wrapper{
+		display: flex;
+		align-items: center;
+	}
 
 }
 .box1{
@@ -47,7 +57,7 @@
 
 // ========Navigation============
 .navigation{
-
+   position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -211,7 +221,7 @@
 	@media screen and (max-width: 767px) {
 		display: none;
 		position: absolute;
-		top: 32%;
+			top: 100%;
 		left: 0;
 		width: 100%;
 		height: 796px;
