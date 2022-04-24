@@ -1,199 +1,266 @@
 <section class="post__section container">
   <div class="post">
-    <div class="post__input--wrapper">
-      <span class="post__icon"><i class="fa fa-search"></i></span>
-      <input
-        type="text"
-        name="search"
-        class="post__input"
-        placeholder="Search blog"
-        required
-        minlength="2"
-        autocomplete="off"
-      />
-    </div>
-    <h2 class="post__title">Recent posts</h2>
-    <ul class="post__list">
-      <li class="post__list--item">
-        <img src="./images/hero.jpg" alt="" class="card__img" />
-
-        <h2 class="card__title">
-          The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises
-        </h2>
-        <div class="card__text--wrapper">
-          <p class="card__text--name">Derek Zimmer</p>
-          <p class="card__text--date">| JUL 25, 2018</p>
-        </div>
-        <p class="card__text--info">Copyright, News, Open Source, Privacy</p>
-
-        <div class="card__comment--wrapper">
-          <svg class="card__icon">
-            <use href="./images/sprite.svg#comment"></use>
-          </svg>
-          <p>0</p>
-        </div>
-      </li>
-      <li class="post__list--item">
-        <img src="./images/hero.jpg" alt="" class="card__img" />
-
-        <h2 class="card__title">How to get cheaper flights using a VPN</h2>
-        <div class="card__text--wrapper">
-          <p class="card__text--name">Jayson</p>
-          <p class="card__text--date">| JUL 24, 2018</p>
-        </div>
-        <p class="card__text--info">Guides</p>
-
-        <div class="card__comment--wrapper">
-          <svg class="card__icon">
-            <use href="./images/sprite.svg#comment"></use>
-          </svg>
-          <p>0</p>
-        </div>
-      </li>
-      <li class="post__list--item">
-        <img src="./images/hero.jpg" alt="" class="card__img" />
-
-        <h2 class="card__title">Net Neutrality was repealed, but the fight is far from over</h2>
-        <div class="card__text--wrapper">
-          <p class="card__text--name">Chris Miller</p>
-          <p class="card__text--date">| JUL 22, 2018</p>
-        </div>
-        <p class="card__text--info">Governments, Net Neutrality, News</p>
-
-        <div class="card__comment--wrapper">
-          <svg class="card__icon">
-            <use href="./images/sprite.svg#comment"></use>
-          </svg>
-          <p>0</p>
-        </div>
-      </li>
-    </ul>
-    <button type="button" class="post__btn">older posts</button>
-    <div class="post__announcement">
-      <div class="post__announcement--wrapper">
-        <svg class="post__announcement--icon">
-          <use href="./images/sprite.svg#bell"></use>
-        </svg>
-        <h2 class="post__announcement--title">Announcements</h2>
+    <div class="post__title--wrapper">
+      <div class="post__input--wrapper">
+        <span class="post__icon"><i class="fa fa-search"></i></span>
+        <input
+          type="text"
+          name="search"
+          class="post__input"
+          placeholder="Search blog"
+          required
+          minlength="2"
+          autocomplete="off"
+        />
       </div>
-
-      <ul class="post__announcement--list">
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            Upcoming Changes (Live Chat, Less Censorship, More Access)
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">New Servers (US Washington DC)</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">New Servers (US Denver)</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">Open Source: Releasing the PIA iOS Client</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">Opera Extension is now available</p>
-        </li>
-      </ul>
+      <h2 class="post__title">Recent posts</h2>
     </div>
-    <div class="post__announcement">
-      <div class="post__announcement--wrapper">
-        <svg class="post__announcement--icon">
-          <use href="./images/sprite.svg#wifi"></use>
-        </svg>
-        <h2 class="post__announcement--title">Popular posts</h2>
-      </div>
+    <div class="post__list--wrapper">
+      <div class="post__list--box">
+        <ul class="post__list">
+          <li class="post__list--item">
+            <img src="./images/hero.jpg" alt="" class="card__img" />
+            <div class="card__item--wrapper">
+              <h2 class="card__title">
+                The Internet Cannot be Trusted – Beamsplitters, Backdoors, and Broken Promises
+              </h2>
+              <div class="card__text--wrapper">
+                <p class="card__text--name">Derek Zimmer</p>
+                <p class="card__text--date">| JUL 25, 2018</p>
+              </div>
+              <p class="card__text--info">Copyright, News, Open Source, Privacy</p>
 
-      <ul class="post__announcement--list">
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">The Gift of Privacy</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            UK High Court Censors Many Links To Popcorn Time: Useless, Dangerous Gesture
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            About the PIA Client Security and VPN Security in General
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            A Private Net Is Just As Fundamental A Right As Freedom Of Speech
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            Wiretapping Today Just Doesn’t Mean What The Word Meant In The 1990s, So Don’t Fall For
-            That Lie
-          </p>
-        </li>
-      </ul>
-    </div>
-    <div class="post__announcement">
-      <div class="post__announcement--wrapper">
-        <svg class="post__announcement--icon">
-          <use href="./images/sprite.svg#bell"></use>
-        </svg>
-        <h2 class="post__announcement--title">Announcements</h2>
-      </div>
+              <div class="card__comment--wrapper">
+                <svg class="card__icon">
+                  <use href="./images/sprite.svg#comment"></use>
+                </svg>
+                <p>0</p>
+              </div>
+            </div>
+          </li>
+          <li class="post__list--item">
+            <img src="./images/hero.jpg" alt="" class="card__img" />
+            <div class="card__item--wrapper">
+              <h2 class="card__title">How to get cheaper flights using a VPN</h2>
+              <div class="card__text--wrapper">
+                <p class="card__text--name">Jayson</p>
+                <p class="card__text--date">| JUL 24, 2018</p>
+              </div>
+              <p class="card__text--info">Guides</p>
 
-      <ul class="post__announcement--list">
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            Upcoming Changes (Live Chat, Less Censorship, More Access)
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">New Servers (US Washington DC)</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">New Servers (US Denver)</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">Open Source: Releasing the PIA iOS Client</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">Opera Extension is now available</p>
-        </li>
-      </ul>
-    </div>
-    <div class="post__announcement">
-      <div class="post__announcement--wrapper">
-        <svg class="post__announcement--icon">
-          <use href="./images/sprite.svg#wifi"></use>
-        </svg>
-        <h2 class="post__announcement--title">Popular posts</h2>
-      </div>
+              <div class="card__comment--wrapper">
+                <svg class="card__icon">
+                  <use href="./images/sprite.svg#comment"></use>
+                </svg>
+                <p>0</p>
+              </div>
+            </div>
+          </li>
+          <li class="post__list--item">
+            <img src="./images/hero.jpg" alt="" class="card__img" />
+            <div class="card__item--wrapper">
+              <h2 class="card__title">
+                Net Neutrality was repealed, but the fight is far from over
+              </h2>
+              <div class="card__text--wrapper">
+                <p class="card__text--name">Chris Miller</p>
+                <p class="card__text--date">| JUL 22, 2018</p>
+              </div>
+              <p class="card__text--info">Governments, Net Neutrality, News</p>
 
-      <ul class="post__announcement--list">
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">The Gift of Privacy</p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            UK High Court Censors Many Links To Popcorn Time: Useless, Dangerous Gesture
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            About the PIA Client Security and VPN Security in General
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            A Private Net Is Just As Fundamental A Right As Freedom Of Speech
-          </p>
-        </li>
-        <li class="post__announcement--item">
-          <p class="post__announcement--text">
-            Wiretapping Today Just Doesn’t Mean What The Word Meant In The 1990s, So Don’t Fall For
-            That Lie
-          </p>
-        </li>
-      </ul>
+              <div class="card__comment--wrapper">
+                <svg class="card__icon">
+                  <use href="./images/sprite.svg#comment"></use>
+                </svg>
+                <p>0</p>
+              </div>
+            </div>
+          </li>
+          <li class="post__list--item hidden">
+            <img src="./images/hero.jpg" alt="" class="card__img" />
+            <div class="card__item--wrapper">
+              <h2 class="card__title">How to get cheaper flights using a VPN</h2>
+              <div class="card__text--wrapper">
+                <p class="card__text--name">Jayson</p>
+                <p class="card__text--date">| JUL 24, 2018</p>
+              </div>
+              <p class="card__text--info">Guides</p>
+
+              <div class="card__comment--wrapper">
+                <svg class="card__icon">
+                  <use href="./images/sprite.svg#comment"></use>
+                </svg>
+                <p>0</p>
+              </div>
+            </div>
+          </li>
+          <li class="post__list--item hidden">
+            <img src="./images/hero.jpg" alt="" class="card__img" />
+            <div class="card__item--wrapper">
+              <h2 class="card__title">How to get cheaper flights using a VPN</h2>
+              <div class="card__text--wrapper">
+                <p class="card__text--name">Jayson</p>
+                <p class="card__text--date">| JUL 24, 2018</p>
+              </div>
+              <p class="card__text--info">Guides</p>
+
+              <div class="card__comment--wrapper">
+                <svg class="card__icon">
+                  <use href="./images/sprite.svg#comment"></use>
+                </svg>
+                <p>0</p>
+              </div>
+            </div>
+          </li>
+          <li class="post__list--item hidden">
+            <img src="./images/hero.jpg" alt="" class="card__img" />
+            <div class="card__item--wrapper">
+              <h2 class="card__title">How to get cheaper flights using a VPN</h2>
+              <div class="card__text--wrapper">
+                <p class="card__text--name">Jayson</p>
+                <p class="card__text--date">| JUL 24, 2018</p>
+              </div>
+              <p class="card__text--info">Guides</p>
+
+              <div class="card__comment--wrapper">
+                <svg class="card__icon">
+                  <use href="./images/sprite.svg#comment"></use>
+                </svg>
+                <p>0</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button type="button" class="post__btn">older posts</button>
+      </div>
+      <div class="post__announcement--box">
+        <div class="post__announcement">
+          <div class="post__announcement--wrapper">
+            <svg class="post__announcement--icon">
+              <use href="./images/sprite.svg#bell"></use>
+            </svg>
+            <h2 class="post__announcement--title">Announcements</h2>
+          </div>
+
+          <ul class="post__announcement--list">
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                Upcoming Changes (Live Chat, Less Censorship, More Access)
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">New Servers (US Washington DC)</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">New Servers (US Denver)</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">Open Source: Releasing the PIA iOS Client</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">Opera Extension is now available</p>
+            </li>
+          </ul>
+        </div>
+        <div class="post__announcement">
+          <div class="post__announcement--wrapper">
+            <svg class="post__announcement--icon">
+              <use href="./images/sprite.svg#wifi"></use>
+            </svg>
+            <h2 class="post__announcement--title">Popular posts</h2>
+          </div>
+
+          <ul class="post__announcement--list">
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">The Gift of Privacy</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                UK High Court Censors Many Links To Popcorn Time: Useless, Dangerous Gesture
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                About the PIA Client Security and VPN Security in General
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                A Private Net Is Just As Fundamental A Right As Freedom Of Speech
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                Wiretapping Today Just Doesn’t Mean What The Word Meant In The 1990s, So Don’t Fall
+                For That Lie
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="post__announcement">
+          <div class="post__announcement--wrapper">
+            <svg class="post__announcement--icon">
+              <use href="./images/sprite.svg#bell"></use>
+            </svg>
+            <h2 class="post__announcement--title">Announcements</h2>
+          </div>
+
+          <ul class="post__announcement--list">
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                Upcoming Changes (Live Chat, Less Censorship, More Access)
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">New Servers (US Washington DC)</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">New Servers (US Denver)</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">Open Source: Releasing the PIA iOS Client</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">Opera Extension is now available</p>
+            </li>
+          </ul>
+        </div>
+        <div class="post__announcement">
+          <div class="post__announcement--wrapper">
+            <svg class="post__announcement--icon">
+              <use href="./images/sprite.svg#wifi"></use>
+            </svg>
+            <h2 class="post__announcement--title">Popular posts</h2>
+          </div>
+
+          <ul class="post__announcement--list">
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">The Gift of Privacy</p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                UK High Court Censors Many Links To Popcorn Time: Useless, Dangerous Gesture
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                About the PIA Client Security and VPN Security in General
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                A Private Net Is Just As Fundamental A Right As Freedom Of Speech
+              </p>
+            </li>
+            <li class="post__announcement--item">
+              <p class="post__announcement--text">
+                Wiretapping Today Just Doesn’t Mean What The Word Meant In The 1990s, So Don’t Fall
+                For That Lie
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </section>

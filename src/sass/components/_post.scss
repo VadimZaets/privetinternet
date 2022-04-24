@@ -1,5 +1,31 @@
 .post{
 	padding-top: 40px;
+	&__section{
+		// @media screen and (min-width: 1280px) {
+		// 	display: none;
+		// }
+	}
+	&__title--wrapper{
+		display: block;
+		@media screen and (min-width: 1280px) {
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-between;
+		}
+	}
+	&__list--wrapper{
+		display: block;
+		@media screen and (min-width: 1280px) {
+			display: flex;
+		}
+	}
+	&__list--box{
+		display: block;
+		@media screen and (min-width: 1280px) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;}
+	}
 	&__input{
 width: 335px;
 height: 50px;
@@ -22,6 +48,9 @@ width: 300px;
 vertical-align: middle;
 white-space: nowrap;
 position: relative;
+@media screen and (min-width: 1280px) {
+	width: 335px;
+}
 }
 &__icon{
 	position: absolute;
@@ -30,6 +59,9 @@ position: relative;
 	margin-top: 17px;
 	z-index: 1;
 	color: var(--second-bg-color);
+	@media screen and (min-width: 1280px) {
+		top: 0;
+	}
 }
 &__title{
 	font-weight: 300;
@@ -43,6 +75,11 @@ position: relative;
 }
 &__list--item{
 	border-bottom: 1px solid #EBECED;
+	display: block;
+	
+	@media screen and (min-width: 1280px) {
+		display: flex;
+	}
 }
 
 &__btn{
@@ -60,6 +97,16 @@ position: relative;
 }
 &__announcement{
 margin-top: 75px;
+@media screen and (min-width: 1280px) {
+	margin-top: 35px;
+}
+
+}
+&__announcement--box {
+	@media screen and (min-width: 1280px) {
+		margin-left: 60px;
+		width: 508px;
+	}
 }
 &__announcement--wrapper {
 	display: flex;
@@ -93,4 +140,10 @@ margin-top: 75px;
 	line-height: 1.57;
 	color: var(--title-text-color);
 }
+}
+.hidden{
+	display: none;
+	@media screen and (min-width: 1280px) {
+		display: flex;
+	}
 }
