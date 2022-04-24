@@ -5,6 +5,9 @@
 	width: auto;
 	height: 68px;
 	background-color: var(--second-bg-color);
+	@media screen and (min-width: 768px) {
+		justify-content: center;
+	}
    
 	&__box--wrapper{
 		display: flex;
@@ -12,6 +15,9 @@
 		flex-direction: column;
 		align-items: center;
 		margin-right: 10px;
+@media screen and (min-width: 768px) {
+		flex-direction: row;
+}
 	}
 
    &__text--color{
@@ -19,6 +25,10 @@
 		font-size: 12px;
 		line-height: 1.33;
 		color: var(--accent-second-color);
+				@media screen and (min-width: 768px) {
+					margin-right: 32px;
+					
+				}
 	
 	}
 	&__text{
@@ -27,12 +37,18 @@
 	font-size: 12px;
 	line-height: 1.33;
 	color: var(--secondary-text-color);
+		@media screen and (min-width: 768px) {
+			margin-right: 32px;
+				margin-top: 0;
+		}
 	}
 	&__link{
 		font-weight: 400;
 		font-size: 12px;
 		line-height: 1.33;
 		color:var(--primary-bg-color);
+		
+	
 	}
 	&__icon--close{
 		margin-top: 15px;
@@ -55,6 +71,13 @@
 	margin-left: 20px;
 }
 
+.box2{
+	@media screen and (min-width: 768px) {
+		flex-direction: row-reverse;
+		
+	}
+}
+
 // ========Navigation============
 .navigation{
    position: relative;
@@ -75,6 +98,10 @@
 	background-color: #000000;
 	
 	border: 1px solid #000000;
+			@media screen and (min-width: 768px) {
+				display: none;
+			
+			}
 	}
 	&__link{
 			@media screen and (max-width: 767px) {
