@@ -1,6 +1,11 @@
 .footer{
 	padding-top: 40px;
 	margin: 0 auto;
+   &__box--wrapper{
+		@media screen and (min-width: 1280px) {
+		display: flex;}
+	}
+		
 	&__logo{
 		display: flex;
 		align-items: center;
@@ -18,7 +23,11 @@
 	}
 	&__section--wrapper{
 		display: flex;
-	}
+		@media screen and (min-width: 1280px) {
+			margin-right: 60px;
+		}
+		}
+	
 
 	&__title{
 		font-weight: 500;
@@ -57,6 +66,11 @@
 		
 		color: #889099;
 	}
+	&__about--wrapper {
+		@media screen and (min-width: 1280px) {
+			width: 600px;
+		}
+	}
 	&__social--title{
 			font-weight: 500;
 			font-size: 14px;
@@ -65,7 +79,7 @@
 			text-transform: uppercase;
 			margin-bottom: 18px;
 			color: #323642;
-			 margin-top: 88px;
+			 
 	}
 	&__social--list{
 		display: flex;
@@ -81,5 +95,19 @@
 	}
 	&__social--link{
 		fill: #323642;
+	}
+}
+
+.social__hidden--mobile{
+	margin-top: 44px;
+			@media screen and (max-width: 1279px) {
+				display: none;
+				
+			}
+}
+.social__hidden--desktop {
+	@media screen and (min-width: 1280px) {
+		display: none;
+		
 	}
 }

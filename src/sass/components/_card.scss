@@ -3,6 +3,9 @@
 		width: 335px;
 		margin: 0 auto;
 		margin-bottom: 24px;
+		@media screen and (min-width: 768px) {
+        width: auto;
+		}
 		@media screen and (min-width: 1280px){
 			width: 280px;
 			margin: 0 40px 60px 0;
